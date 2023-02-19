@@ -128,9 +128,37 @@ location.reload()
 
 
 
-timer()
 let close = document.querySelector('.view__close')
 close.addEventListener('click', function(){
     view.style.display = 'none'
 })
 
+let card = document.querySelector('.card__button')
+card.addEventListener('click', function(){
+    card_wrapper.style.marginTop = "160px"
+}) 
+
+let cardtwo = document.querySelector('.card__buttontwo')
+cardtwo.addEventListener('click', function(){
+    card_wrappertwo.style.marginTop = "160px"
+})
+let cardthree = document.querySelector('.card__buttonthree')
+cardthree.addEventListener('click', function(){
+    card_wrapperthree.style.marginTop = "160px"
+})
+let cardfour = document.querySelector('.card__buttonfour')
+cardfour.addEventListener('click', function(){
+    card_wrapperfour.style.marginTop = "160px"
+})
+card.addEventListener('dblclick', function(){
+    card_wrapper.style.marginTop = "-200px"
+})
+cardtwo.addEventListener('dblclick', function(){
+    card_wrappertwo.style.marginTop = "-200px"
+})
+cardthree.addEventListener('dblclick', function(){
+    card_wrapperthree.style.marginTop = "-200px"
+})
+cardfour.addEventListener('dblclick', function(){
+    card_wrapperfour.style.marginTop = "-200px"
+})

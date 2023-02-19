@@ -1,11 +1,12 @@
-*{
-    
-}
+
 /* .btn-primary{
     margin: 10px auto;
     display: flex;
     flex-direction: row;
 } */
+body{
+    background: #a3a2a2;
+}
 .header{
     display: flex;
 
@@ -43,7 +44,7 @@
     text-transform: uppercase;
     text-align: center;
     color: chartreuse;
-    background: rgba(0, 0, 0, 0.39);
+    background:#a3a2a2;
 }
 .main {
     width: 80%;
@@ -290,7 +291,6 @@
     color: #fff;
 }
 .button {
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -397,4 +397,77 @@
     max-height: 100%;
     width: auto !important;
     height: auto !important;
+}
+.carousel{
+    height: 600px;
+    background: #a3a2a2;
+}
+.red{
+    margin: 0 auto;
+}
+.cards_box{
+    width: 1140px;
+    height: 700px;
+    background: white;
+}
+.img__box_wrapper{
+    display: flex;
+}
+.img__box{
+    width: 283px;
+    height: 198px;
+}
+.t{
+    width: 100%;
+}
+.card_wrapper{
+    display: flex;
+}
+.card{
+    margin-top: -200px;
+    width: 283px;
+    height: 433px;
+}
+.button_wrapper{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    width: 1140px;
+}
+.card__button{
+    text-decoration: none;
+    color: chartreuse;
+    padding: 10px;
+    background: #201f1f;
+    border-radius: 25px;
+    margin: 10px 0 ;
+}
+.carddd{
+    width: 283px;
+    height: 433px;
+    background-color: white ;
+}
+.card__buttontwo{
+    text-decoration: none;
+    color: chartreuse;
+    padding: 10px;
+    background: #201f1f;
+    border-radius: 25px;
+    margin: 10px 0 ;
+}
+.card__buttonthree{
+    text-decoration: none;
+    color: chartreuse;
+    padding: 10px;
+    background: #201f1f;
+    border-radius: 25px;
+    margin: 10px 0 ;
+}
+.card__buttonfour{
+    text-decoration: none;
+    color: chartreuse;
+    padding: 10px;
+    background: #201f1f;
+    border-radius: 25px;
+    margin: 10px 0 ;
 }
